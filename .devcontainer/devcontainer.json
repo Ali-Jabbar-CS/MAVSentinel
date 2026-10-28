@@ -1,0 +1,10 @@
+{
+    "name": "MAVSentinel Dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "ubuntu",
+    "runArgs": [
+        "--network=host"
+    ]
+}
