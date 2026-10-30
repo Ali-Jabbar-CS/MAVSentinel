@@ -12,7 +12,11 @@ target_compile_features(mavsentinel_core
     PUBLIC
         cxx_std_23
 )
+
 target_compile_options(mavsentinel_core
-     PRIVATE
-        -Wall -Wextra -Wpedantic -Werror
+    PRIVATE
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Werror
 )

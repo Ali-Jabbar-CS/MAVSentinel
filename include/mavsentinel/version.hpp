@@ -4,4 +4,4 @@
 namespace mavsentinel {
 std::string_view version();
 
-}
+} // namespace mavsentinel

@@ -1,8 +1,8 @@
-#include <mavsentinel/version.hpp>
 #include <iostream>
+#include <mavsentinel/version.hpp>
 
-int main(){
-            std::cout << "mavsentinel " << mavsentinel::version() << '\n';
+int main() {
+  std::cout << "mavsentinel " << mavsentinel::version() << '\n';
 
-    return 0;
+  return 0;
 }
